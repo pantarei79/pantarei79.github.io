@@ -38,7 +38,7 @@ body {
   white-space: nowrap;
 }
 .container .card:hover {
-  flex-grow: 20;
+  flex-grow: 25;
 }
 .container .card:hover img {
   filter: grayscale(0);
