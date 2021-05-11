@@ -18,8 +18,8 @@ body {
 }
 .container .card {
   flex: 1;
-  transition: all 1s ease-in-out;
-  height: 92vmin;
+  transition: all 0.7s ease-in-out;
+  height: 90vmin;
   position: relative;
 }
 .container .card .card__head {
@@ -34,18 +34,19 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 1em;
+  font-size: 2em;
   white-space: nowrap;
 }
 .container .card:hover {
-  flex-grow: 10;
+  flex-grow: 20;
 }
 .container .card:hover img {
   filter: grayscale(0);
 }
 .container .card:hover .card__head {
   text-align: center;
-  top: calc(100% - 2.1em);
+  top: calc(100% - 2.7em);
+  margin-left:-1em;
   color: white;
   background: rgba(0, 0, 0, 0.5);
   font-size: 2em;
